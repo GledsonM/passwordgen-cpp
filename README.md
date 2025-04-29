@@ -1,13 +1,32 @@
-Gerador de Senha em C++
+# Gerador de Senhas feito em C++
 
-Funcionalidades:
 
-- Permite que o usuario escolha o tamanho da senha
-- Pode incluir letras, numeros e tambem simbolos
-- Gera senhas aleatorias
+## Recursos
 
-Como compilar:
+- O comprimento das senhas podem ser definidos pelo usuário.
 
-´´´bash
+- Podem ser adicionado letras, números e símbolos podem ser incluídos.
+
+- Senhas aleatórias são geradas.
+
+## Como Compilar
+
+### 🪟 Windows
+
+No terminal (cmd ou PowerShell):
+
+```bash
+g++ main.cpp -o gerador
+gerador.exe
+```
+
+### 🐧 Linux
+
+Certifique-se de que você tenha g++ instalado.
+
+No Terminal:
+
+```bash
 g++ main.cpp -o gerador
 ./gerador
+```
